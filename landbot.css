@@ -1,0 +1,205 @@
+body{
+ animation: mymove 4s;
+ animation-delay: 4s;
+ animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+  animation: colorchange 20s infinite; 
+        
+}
+
+@keyframes colorchange
+{
+  0%   {background: #281e65;}
+  25%  {background: #6e056e}
+  50%  {background: #281e65;}
+  75%  {background: #6e056e;}
+  100% {background: #281e65;}
+}
+
+@-webkit-keyframes colorchange 
+{
+  0%   {background: #6e056e;}
+  25%  {background: #281e65;}
+  50%  {background: #6e056e;}
+  75%  {background: #281e65;}
+  100% {background: #6e056e;}
+}
+
+
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    margin:20px;
+}
+
+
+.title{
+    margin-left:20px;
+    color:white;
+}
+.SIGN-UP{
+ border:1px solid transparent;
+ background-color: #ef0075;
+ border-width:20px;
+ border-radius: 40px;
+ color: white;
+ text-decoration: none;
+}
+
+.SIGN-UP:hover{
+ background-color: #ef0075;   
+ color: white;
+ opacity:0.5 ;
+}
+
+.LOGIN{
+ border:1px solid #ef0075;
+ border-radius: 40px;
+ text-decoration: none;
+ padding:20px;
+ margin-right: 4px;
+ color:white;
+}
+
+.LOGIN:hover{
+ color: white;
+ opacity:0.5 ;
+}
+
+.PRICING{
+    color:white;
+    margin-right:60px;
+    text-decoration:none;
+}
+.PRICING:hover{
+    color:white;
+    opacity:0.5 ;
+
+}
+
+.paragraph1{
+    border:1px solid white;
+    border-radius:8px;
+    background-color: white;
+    margin-right:400px;
+    margin-left:400px;
+    padding:20px;
+}
+
+.paragraph2{
+    border:1px solid white;
+    border-radius:8px;
+    background-color: white;
+    margin-right:400px;
+    margin-left:400px;
+    padding:20px;
+    margin-top:-10px;
+}
+
+.about-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:40px;
+
+}
+
+img{
+    
+    border-radius: 10px;
+    margin-top:-50px;
+    margin-right:50px;
+    width: 400px;
+}
+
+.mypicture{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.after-picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:40px;
+    margin-right:350px;
+    margin-top:-5px;
+}
+
+.after-picture-container{
+    border:1px solid white;
+    border-radius:8px;
+    background-color: white;   
+}
+
+.after-picture-container::after{
+content: "";
+}
+
+.icon{
+    margin:10px;
+}
+
+.option{
+    color:white;
+    font-size: 10px;
+    margin-left:450px;
+    margin-top:-40px;
+}
+.links{
+   margin-top:30px; 
+    margin-left:450px;
+    
+}
+
+.my-bot{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    border:2px solid red;
+    background-color: #ef0075; 
+    padding: 20px;
+    padding-right:40px;
+    padding-left:40px;
+    margin-right:10px;
+}
+
+.my-bot:hover{
+    background-color:#f024ce ;
+}
+
+.information{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    border:1px solid red;
+    background-color: #ef0075; 
+    padding: 20px;
+    padding-right:40px;
+    padding-left:40px;
+    margin-right:10px;
+}
+
+.information:hover{
+    background-color:#f024ce ;
+}
+
+.link-accept{
+margin-left:450px;
+margin-top:30px; 
+color: white;
+
+}
+
+.link-of-accept{
+ 
+ color:white;
+}
